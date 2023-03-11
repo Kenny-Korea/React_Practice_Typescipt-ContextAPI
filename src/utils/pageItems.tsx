@@ -1,6 +1,7 @@
 import About from "../pages/About";
 import Home from "../pages/Home";
 import MyPage from "../pages/MyPage";
+import Shop from "../pages/Shop";
 import Store from "../pages/Store";
 
 type RouterItem = { title: string; path: string; element: React.ReactNode }[];
@@ -15,6 +16,11 @@ export const routerItem: RouterItem = [
     title: "Store",
     path: "/store",
     element: <Store />,
+  },
+  {
+    title: "Shop",
+    path: "/shop",
+    element: <Shop />,
   },
   {
     title: "About",

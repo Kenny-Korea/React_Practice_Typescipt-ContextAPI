@@ -26,6 +26,7 @@ const Navbar = () => {
                 id={item.path}
                 onClick={handleNavigate}
                 className="navbarElement"
+                key={item.path}
               >
                 {item.title}
               </span>

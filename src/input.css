@@ -5,3 +5,9 @@
 .navbarElement {
   @apply cursor-pointer;
 }
+.counterButton {
+  @apply w-10 h-10 bg-blue-300 text-white text-3xl flex justify-center items-center cursor-pointer;
+}
+.centerItem {
+  @apply flex justify-center items-center;
+}
